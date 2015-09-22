@@ -1,0 +1,32 @@
+<!doctype html>
+
+<html>
+<head>
+    <title>How many figures?</title>
+	<meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+</head>
+
+<body>
+    <p> How may fingers am I holding up?</p>
+	<input id="answer"/>
+	<button id="MyButton">click me to see the answer!</button>
+	
+	<script type="text/javascript">
+	
+	    document.getElementById("MyButton").onclick=function(){
+		    var x=Math.floor(5*Math.random());
+			alert(x);
+			/*if(x==document.getElementById("answer").value){
+			    alert("You are correct!")
+			}else{
+			    alert("please try again!")
+			}*/
+		}
+	
+	</script>
+
+</body>
+</html>

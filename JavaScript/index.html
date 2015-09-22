@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+ <head>
+ <title>Learning JavaScript</title>
+
+ <meta charset="utf-8" />
+ <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+
+ </head>
+
+ <body>
+    
+	
+	<input id="myinput" type="text", value="your username"/>
+	<button id="Button1">click me</button>
+	<div id="mydiv"></div>
+	
+	<script type="text/javascript">
+	    document.getElementById("Button1").onclick=function(){
+		    var changedText=document.getElementById("myinput").value;
+			document.getElementById("mydiv").innerHTML="Hello "+changedText;
+		}
+	</script>
+
+ </body>
+</html>
